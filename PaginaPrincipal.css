@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    background-image: url(imgs/fundo.png);
+   background-attachment:fixed;
+   background-size: 100% 100%;
+}
+
+
+a {
+
+    text-decoration: none;
+    color:white;
+    font-size: 30px;
+}
+
+main {
+    color:white;
+}
+
+
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+
+.logo_navegacao {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.texto_banner {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+ul {  
+    padding:30px
+}
+
+
+li {
+    border:outset;
+    border-style:double;
+    border-width: 5px;
+    border-color:rgb(4, 95, 95);
+    border-radius: 10px;
+}
