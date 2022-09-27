@@ -10,9 +10,10 @@
 a {
 
     text-decoration: none;
-    color:rgb(255, 255, 255);
-    font-size: 40px;
-    margin:15px;
+    color:rgb(250, 250, 250);
+    margin:5px;
+    font-family:  'Abyssinica SIL', serif;;
+   
 }
 
 main {
@@ -21,25 +22,53 @@ main {
 
 
 body {
-    font-family: 'Tangerine', cursive;
+    font-family: 'Abyssinica SIL', serif;
 }
 
 
 
-ul {  
-    padding:30px;
+/* Botões*/
+
+.buttons{
+    text-align: center;
+    margin: 25px;
 }
 
-
-li {
-    border:outset;
-    border-style:double;
-    border-width: 5px;
+.efeito{
+    padding: 5px;
+    border:solid 5px;
     border-color:rgb(2, 95, 91);
-    border-radius: 10px;
-    margin:5px;
+    border-radius: 8px;
+    font-size: 28px;
+    line-height: 35px;
+    position: relative;
+    box-sizing: border-box;
+    transition: all 0.8ms ease;
+    cursor: pointer;
+}
 
-    
+.efeito-1 {
+    background-color: rgb(2,95,91,);
+}
+
+.efeito-1::before{
+    content:'';
+    position:absolute;
+    top:0px;
+    left: 0px;
+    width: 0px;
+    height:50px ;
+    background-color:rgb(2,95,91,0.3);
+    border-radius: 8px;
+    transition: all 0.5s ease;
+    border-radius: 1px;
+
+
+}
+
+.efeito-1:hover:before{
+    width: 100%;
+   
 }
 
 
@@ -48,4 +77,59 @@ li {
     display:flex;
     justify-content: space-between;
     text-align: center;
+    
+    
 }
+.Logo {
+    margin: 10px;
+    border:double;
+    border-radius: 8px;
+    display: flex;
+    border-color: rgb(2, 95, 91);
+    border-width:5px;
+
+    
+}
+
+.container_principal{
+    border: solid;
+    border-color:rgb(2, 95, 91); 
+    margin-top: 20px;
+    
+    
+}
+
+
+.container_principal h1{
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    padding:50px;
+
+}
+
+.container_principal p{
+    font-size: 25px;
+    padding:50px;
+    text-align: center;
+
+}
+
+.container_principal img {
+    border: solid;
+    border-color:rgb(2, 95, 91);
+    
+
+}
+
+.container_img {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    justify-content: space-around;
+    font-size: 35px;
+    padding:50px;
+    border-color: rgb(2, 95, 91);
+
+}
+

@@ -89,73 +89,26 @@ body {
 
 }
 
-
-.texto_topo {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 35px;
-    margin-bottom: 10px;
-    margin-top: 20px;
-}
-
-
-/*Estiliza o topo banner e o conteudo principal*/
-
-
-
-.container_banner {
-    display: flex;
-    align-items: center;
-    justify-content:left;
-    justify-content: space-around;
-    font-size: 35px;
-    padding:50px;
+.container_principal{
     border: solid;
-    border-color: rgb(2, 95, 91);
+    border-color:rgb(2, 95, 91); 
+    margin-top: 20px;
+    
     
 }
 
-.container_banner img {
-    border: solid;
-    border-radius:10px;
-    border-color:rgb(2, 95, 91) ;
 
-}
-
-
-/* Estiliza a parte de localização */
-
-.container_localizacao {
-    border: solid;
-    border-color: rgb(2, 95, 91);
-    margin: 1px;
-}
-
-.container_localizacao h1{
+.container_principal h1{
     display: flex;
     justify-content: center;
-    font-size: 70px;
-    margin-top: 15px;
-}
-.local_link1  {
-    display: flex;
-    align-items: center;
-    justify-content:left;
-    justify-content: space-around;
-    font-size: 30px;
+    font-size: 35px;
     padding:50px;
 
 }
 
-
-.local_link2 {
-    display: flex;
-    align-items: center;
-    justify-content:left;
-    justify-content: space-around;
-    font-size: 30px;
+.container_principal p{
+    font-size: 25px;
     padding:50px;
+    text-align: center;
 
 }
-
